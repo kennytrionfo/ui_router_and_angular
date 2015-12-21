@@ -6,8 +6,10 @@
 </head>
 <body>
 
-	<div class="container" >
-		
+	<div class="container" ng-app="app">
+		<header ng-include="'templates/nav.html'" ></header>
+		<div ui-view >
+		</div>
 	</div>
 
 </body>
